@@ -245,6 +245,7 @@ else:
             st.download_button(
                 label=f"💾 Download {selected_cat} Results",
                 data=csv,
-                file_name=f'{selected_cat}_results.csv',
+                file_name=f'highjump_{selected_cat}_results.csv',
                 mime='text/csv',
             )
+
